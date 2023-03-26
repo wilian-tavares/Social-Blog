@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerUser,
+.containerPost,
+.containerHome ,
+.containerUserDetail,
+.containerPostsUser  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f2f6;
+}    
+
+.containerUser h1,
+.containerPost h1,
+.containerHome h1,
+.containerUserDetail h1,
+.containerPostsUser h1 {
+    margin: 50px 0;
+}    
+

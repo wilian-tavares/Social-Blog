@@ -1,0 +1,41 @@
+
+.cardComment {
+    background-color: #DFE4EA;
+    margin: 10px;
+    width: 70%;
+    max-width: 680px;
+    
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    text-align: justify;
+}
+
+.cardComment strong,
+.cardComment span,
+.cardComment p
+ {
+    margin-top: 10px;
+    display: block;
+}
+.cardComment span {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.cardComment strong {   
+    display: flex;
+    align-items: center;
+}
+
+.cardComment p {
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(104, 102, 102);
+}

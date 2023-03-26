@@ -1,0 +1,23 @@
+
+.containerUser .card {
+    width: 720px;
+    max-width: 80%;
+}
+
+.containerUserDetail {
+    height: calc(100vh - 150px);
+}
+
+.containerUserDetail button {
+    margin-top: 10px;
+    background-color: #001E96;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #FFF;
+    transition: 0.5s;
+}
+.containerUserDetail button:hover {
+    scale: 1.03;
+}

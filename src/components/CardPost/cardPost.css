@@ -1,0 +1,42 @@
+
+.cardPost {
+    background-color: #FFF;
+    margin: 10px;
+    width: 80%;
+    
+    max-width: 720px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.55);
+}
+
+.cardPost h2,
+.cardPost strong,
+.cardPost h3,
+.cardPost p
+ {
+    margin-top: 5px;
+}
+
+a {
+    color: black;
+}
+
+
+
+.cardPost p {
+    margin-left: 10px;
+}
+
+
+@media(max-width: 500px){
+    .cardPost {
+        width: 90%;
+    }
+}

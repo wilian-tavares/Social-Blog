@@ -1,0 +1,10 @@
+.containerHome .buttonPages {
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+.containerHome .navigation {
+    display: flex;
+    margin: 50px 0;
+}
