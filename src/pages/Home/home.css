@@ -5,6 +5,12 @@
     border-radius: 5px;
 }
 .containerHome .navigation {
+    margin: 10px;
+    width: 80%;
+    
+    max-width: 720px;
+    padding: 20px;
     display: flex;
-    margin: 50px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
