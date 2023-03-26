@@ -48,11 +48,13 @@ export default function Home(){
             <h1>Page Posts</h1>
             
             <div className="navigation">
-                    <button 
-                        disabled={Number(currentPage) === pages - 1}
-                        onClick={onNext}>
-                                <FaArrowRight size={25} cursor='pointer'/>
-                        </button>
+                        <button
+                            value={Number(currentPage)}
+                            disabled={Number(currentPage) === 0}
+                            onClick={onPrevious}>
+                            <FaArrowLeft size={25} cursor='pointer' />   
+                        </button>   
+                    
                     {Array.from(Array(pages), (item, index) => {
                         return( 
                             <button 
@@ -66,12 +68,11 @@ export default function Home(){
                             </button>)
                         })}
 
-                        <button
-                            value={Number(currentPage)}
-                            disabled={Number(currentPage) === 0}
-                            onClick={onPrevious}>
-                            <FaArrowLeft size={25} cursor='pointer' />   
-                        </button>          
+                        <button 
+                            disabled={Number(currentPage) === pages - 1}
+                            onClick={onNext}>
+                            <FaArrowRight size={25} cursor='pointer'/>
+                        </button>    
             </div>   
             
             {
@@ -90,11 +91,13 @@ export default function Home(){
             }
        
             <div className="navigation">
-                            <button 
-                                disabled={Number(currentPage) === pages - 1}
-                                onClick={onNext}>
-                                <FaArrowRight size={25} cursor='pointer'/>
+                            <button
+                                value={Number(currentPage)}
+                                disabled={Number(currentPage) === 0}
+                                onClick={onPrevious}>                     
+                                <FaArrowLeft size={25} cursor='pointer' />            
                             </button>
+                            
 
                             {Array.from(Array(pages), (item, index) => {
                                 return( 
@@ -109,12 +112,14 @@ export default function Home(){
                                     </button>
                                 )
                             })}
-                            <button
-                            value={Number(currentPage)}
-                            disabled={Number(currentPage) === 0}
-                            onClick={onPrevious}>                     
-                                <FaArrowLeft size={25} cursor='pointer' />            
+                            <button 
+                                disabled={Number(currentPage) === pages - 1}
+                                onClick={onNext}>
+                                <FaArrowRight size={35} cursor='pointer'/>
                             </button>
+
+
+                            
                     </div>
             </div>
     )
