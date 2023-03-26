@@ -8,7 +8,8 @@ Este projeto consiste em buscar dados de uma API com usuarios genéricos de uma 
 
 **SH**
 
-``` git clone
+``` 
+  git  clone https://github.com/wilian-tavares/Social-Blog.git
 ```
 
 Eu estou usando o **npm** como exemplo.
