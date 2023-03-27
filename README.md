@@ -4,7 +4,7 @@
 
 Este projeto consiste em buscar dados de uma API com usuarios genéricos de uma rede social.
 
-## Como  :airplane:
+## Como Iniciar :airplane:
 
 **SH**
 
