@@ -40,10 +40,6 @@ npm install
     "react-router-dom": "^6.9.0",
 ```
 
-## Instale estas dependências!
 
-```
-    npm install axios
-    npm install react-icons
-    npm install react-router-dom
-```
+
+
